@@ -1,0 +1,854 @@
+{
+ "cases": [
+  {
+   "fn": "sheets",
+   "args": [
+    "400"
+   ],
+   "expect": "The 400 sq ft of wall in 4 by 8 ft sheets takes 13 sheets, leaving 16 sq ft."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "13",
+    "6",
+    "12"
+   ],
+   "expect": "The 13 sheets at 6 inches on the edge and 12 inches in the field take 64 nails a sheet, 832 nails in all."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "832",
+    "500",
+    "12.50",
+    "13"
+   ],
+   "expect": "The 832 nails in boxes of 500 take 2 boxes, leaving 168 nails, and cost $25.00, or $1.92 a sheet over the 13."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "13",
+    "28.50"
+   ],
+   "expect": "The 13 sheets at $28.5 cost $370.50."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "140691"
+   ],
+   "expect": "The 140691 sq ft of wall in 4 by 8 ft sheets takes 4397 sheets, leaving 13 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "109454"
+   ],
+   "expect": "The 109454 sq ft of wall in 4 by 8 ft sheets takes 3421 sheets, leaving 18 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "903976"
+   ],
+   "expect": "The 903976 sq ft of wall in 4 by 8 ft sheets takes 28250 sheets, leaving 24 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "354049"
+   ],
+   "expect": "The 354049 sq ft of wall in 4 by 8 ft sheets takes 11065 sheets, leaving 31 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "110073"
+   ],
+   "expect": "The 110073 sq ft of wall in 4 by 8 ft sheets takes 3440 sheets, leaving 7 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "226485"
+   ],
+   "expect": "The 226485 sq ft of wall in 4 by 8 ft sheets takes 7078 sheets, leaving 11 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "1201"
+   ],
+   "expect": "The 1201 sq ft of wall in 4 by 8 ft sheets takes 38 sheets, leaving 15 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "401714"
+   ],
+   "expect": "The 401714 sq ft of wall in 4 by 8 ft sheets takes 12554 sheets, leaving 14 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "675755"
+   ],
+   "expect": "The 675755 sq ft of wall in 4 by 8 ft sheets takes 21118 sheets, leaving 21 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "353764"
+   ],
+   "expect": "The 353764 sq ft of wall in 4 by 8 ft sheets takes 11056 sheets, leaving 28 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "589670"
+   ],
+   "expect": "The 589670 sq ft of wall in 4 by 8 ft sheets takes 18428 sheets, leaving 26 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "964313"
+   ],
+   "expect": "The 964313 sq ft of wall in 4 by 8 ft sheets takes 30135 sheets, leaving 7 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "571339"
+   ],
+   "expect": "The 571339 sq ft of wall in 4 by 8 ft sheets takes 17855 sheets, leaving 21 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "937127"
+   ],
+   "expect": "The 937127 sq ft of wall in 4 by 8 ft sheets takes 29286 sheets, leaving 25 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "504009"
+   ],
+   "expect": "The 504009 sq ft of wall in 4 by 8 ft sheets takes 15751 sheets, leaving 23 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "476909"
+   ],
+   "expect": "The 476909 sq ft of wall in 4 by 8 ft sheets takes 14904 sheets, leaving 19 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "969882"
+   ],
+   "expect": "The 969882 sq ft of wall in 4 by 8 ft sheets takes 30309 sheets, leaving 6 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "557317"
+   ],
+   "expect": "The 557317 sq ft of wall in 4 by 8 ft sheets takes 17417 sheets, leaving 27 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "682153"
+   ],
+   "expect": "The 682153 sq ft of wall in 4 by 8 ft sheets takes 21318 sheets, leaving 23 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "665180"
+   ],
+   "expect": "The 665180 sq ft of wall in 4 by 8 ft sheets takes 20787 sheets, leaving 4 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "215314"
+   ],
+   "expect": "The 215314 sq ft of wall in 4 by 8 ft sheets takes 6729 sheets, leaving 14 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "361460"
+   ],
+   "expect": "The 361460 sq ft of wall in 4 by 8 ft sheets takes 11296 sheets, leaving 12 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "193466"
+   ],
+   "expect": "The 193466 sq ft of wall in 4 by 8 ft sheets takes 6046 sheets, leaving 6 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "970786"
+   ],
+   "expect": "The 970786 sq ft of wall in 4 by 8 ft sheets takes 30338 sheets, leaving 30 sq ft."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "589120"
+   ],
+   "expect": "The 589120 sq ft of wall in 4 by 8 ft sheets takes 18410 sheets, leaving 0 sq ft."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "2751",
+    "1",
+    "33"
+   ],
+   "expect": "The 2751 sheets at 1 inches on the edge and 33 inches in the field take 294 nails a sheet, 808794 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "39179",
+    "43",
+    "1"
+   ],
+   "expect": "The 39179 sheets at 43 inches on the edge and 1 inches in the field take 199 nails a sheet, 7796621 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "38747",
+    "13",
+    "35"
+   ],
+   "expect": "The 38747 sheets at 13 inches on the edge and 35 inches in the field take 29 nails a sheet, 1123663 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "53392",
+    "14",
+    "19"
+   ],
+   "expect": "The 53392 sheets at 14 inches on the edge and 19 inches in the field take 33 nails a sheet, 1761936 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "41997",
+    "39",
+    "4"
+   ],
+   "expect": "The 41997 sheets at 39 inches on the edge and 4 inches in the field take 56 nails a sheet, 2351832 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "1971",
+    "35",
+    "35"
+   ],
+   "expect": "The 1971 sheets at 35 inches on the edge and 35 inches in the field take 15 nails a sheet, 29565 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "93408",
+    "24",
+    "14"
+   ],
+   "expect": "The 93408 sheets at 24 inches on the edge and 14 inches in the field take 26 nails a sheet, 2428608 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "69534",
+    "30",
+    "17"
+   ],
+   "expect": "The 69534 sheets at 30 inches on the edge and 17 inches in the field take 22 nails a sheet, 1529748 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "38862",
+    "9",
+    "6"
+   ],
+   "expect": "The 38862 sheets at 9 inches on the edge and 6 inches in the field take 64 nails a sheet, 2487168 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "36114",
+    "26",
+    "36"
+   ],
+   "expect": "The 36114 sheets at 26 inches on the edge and 36 inches in the field take 18 nails a sheet, 650052 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "93054",
+    "19",
+    "18"
+   ],
+   "expect": "The 93054 sheets at 19 inches on the edge and 18 inches in the field take 28 nails a sheet, 2605512 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "88053",
+    "47",
+    "10"
+   ],
+   "expect": "The 88053 sheets at 47 inches on the edge and 10 inches in the field take 27 nails a sheet, 2377431 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "67869",
+    "44",
+    "47"
+   ],
+   "expect": "The 67869 sheets at 44 inches on the edge and 47 inches in the field take 13 nails a sheet, 882297 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "62302",
+    "46",
+    "44"
+   ],
+   "expect": "The 62302 sheets at 46 inches on the edge and 44 inches in the field take 13 nails a sheet, 809926 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "59120",
+    "15",
+    "33"
+   ],
+   "expect": "The 59120 sheets at 15 inches on the edge and 33 inches in the field take 26 nails a sheet, 1537120 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "43789",
+    "44",
+    "43"
+   ],
+   "expect": "The 43789 sheets at 44 inches on the edge and 43 inches in the field take 13 nails a sheet, 569257 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "36511",
+    "14",
+    "34"
+   ],
+   "expect": "The 36511 sheets at 14 inches on the edge and 34 inches in the field take 27 nails a sheet, 985797 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "30529",
+    "29",
+    "5"
+   ],
+   "expect": "The 30529 sheets at 29 inches on the edge and 5 inches in the field take 50 nails a sheet, 1526450 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "23825",
+    "14",
+    "9"
+   ],
+   "expect": "The 23825 sheets at 14 inches on the edge and 9 inches in the field take 43 nails a sheet, 1024475 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "22286",
+    "35",
+    "30"
+   ],
+   "expect": "The 22286 sheets at 35 inches on the edge and 30 inches in the field take 17 nails a sheet, 378862 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "14338",
+    "19",
+    "10"
+   ],
+   "expect": "The 14338 sheets at 19 inches on the edge and 10 inches in the field take 36 nails a sheet, 516168 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "22120",
+    "21",
+    "14"
+   ],
+   "expect": "The 22120 sheets at 21 inches on the edge and 14 inches in the field take 28 nails a sheet, 619360 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "47556",
+    "27",
+    "27"
+   ],
+   "expect": "The 47556 sheets at 27 inches on the edge and 27 inches in the field take 19 nails a sheet, 903564 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "3205",
+    "36",
+    "20"
+   ],
+   "expect": "The 3205 sheets at 36 inches on the edge and 20 inches in the field take 18 nails a sheet, 57690 nails in all."
+  },
+  {
+   "fn": "nails",
+   "args": [
+    "50338",
+    "34",
+    "17"
+   ],
+   "expect": "The 50338 sheets at 34 inches on the edge and 17 inches in the field take 21 nails a sheet, 1057098 nails in all."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "58760137",
+    "57618",
+    "1135.15",
+    "60315"
+   ],
+   "expect": "The 58760137 nails in boxes of 57618 take 1020 boxes, leaving 10223 nails, and cost $1157853.00, or $19.20 a sheet over the 60315."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "47809636",
+    "45244",
+    "5741.9",
+    "25436"
+   ],
+   "expect": "The 47809636 nails in boxes of 45244 take 1057 boxes, leaving 13272 nails, and cost $6069188.30, or $238.61 a sheet over the 25436."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "35819021",
+    "46281",
+    "8841.74",
+    "92218"
+   ],
+   "expect": "The 35819021 nails in boxes of 46281 take 774 boxes, leaving 2473 nails, and cost $6843506.76, or $74.21 a sheet over the 92218."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "39508543",
+    "36879",
+    "9434.97",
+    "70601"
+   ],
+   "expect": "The 39508543 nails in boxes of 36879 take 1072 boxes, leaving 25745 nails, and cost $10114287.84, or $143.26 a sheet over the 70601."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "70378955",
+    "70860",
+    "785.78",
+    "29622"
+   ],
+   "expect": "The 70378955 nails in boxes of 70860 take 994 boxes, leaving 55885 nails, and cost $781065.32, or $26.37 a sheet over the 29622."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "36482510",
+    "25891",
+    "9989.92",
+    "18895"
+   ],
+   "expect": "The 36482510 nails in boxes of 25891 take 1410 boxes, leaving 23800 nails, and cost $14085787.20, or $745.48 a sheet over the 18895."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "13605121",
+    "77670",
+    "1592.32",
+    "97679"
+   ],
+   "expect": "The 13605121 nails in boxes of 77670 take 176 boxes, leaving 64799 nails, and cost $280248.32, or $2.87 a sheet over the 97679."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "78388881",
+    "38987",
+    "6609.06",
+    "45322"
+   ],
+   "expect": "The 78388881 nails in boxes of 38987 take 2011 boxes, leaving 13976 nails, and cost $13290819.66, or $293.25 a sheet over the 45322."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "30368702",
+    "26040",
+    "6347.01",
+    "16054"
+   ],
+   "expect": "The 30368702 nails in boxes of 26040 take 1167 boxes, leaving 19978 nails, and cost $7406960.67, or $461.38 a sheet over the 16054."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "36309604",
+    "22963",
+    "6540.62",
+    "58085"
+   ],
+   "expect": "The 36309604 nails in boxes of 22963 take 1582 boxes, leaving 17862 nails, and cost $10347260.84, or $178.14 a sheet over the 58085."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "41964012",
+    "26013",
+    "5312.86",
+    "72306"
+   ],
+   "expect": "The 41964012 nails in boxes of 26013 take 1614 boxes, leaving 20970 nails, and cost $8574956.04, or $118.59 a sheet over the 72306."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "62339582",
+    "1620",
+    "9897.25",
+    "12473"
+   ],
+   "expect": "The 62339582 nails in boxes of 1620 take 38482 boxes, leaving 1258 nails, and cost $380865974.50, or $30535.23 a sheet over the 12473."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "45404681",
+    "81969",
+    "703.27",
+    "76156"
+   ],
+   "expect": "The 45404681 nails in boxes of 81969 take 554 boxes, leaving 6145 nails, and cost $389611.58, or $5.12 a sheet over the 76156."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "40043768",
+    "92114",
+    "7574.39",
+    "11924"
+   ],
+   "expect": "The 40043768 nails in boxes of 92114 take 435 boxes, leaving 25822 nails, and cost $3294859.65, or $276.32 a sheet over the 11924."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "32086382",
+    "37462",
+    "7720.54",
+    "46779"
+   ],
+   "expect": "The 32086382 nails in boxes of 37462 take 857 boxes, leaving 18552 nails, and cost $6616502.78, or $141.44 a sheet over the 46779."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "68468155",
+    "49448",
+    "3352.25",
+    "33390"
+   ],
+   "expect": "The 68468155 nails in boxes of 49448 take 1385 boxes, leaving 17325 nails, and cost $4642866.25, or $139.05 a sheet over the 33390."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "73383723",
+    "74044",
+    "7361.95",
+    "9092"
+   ],
+   "expect": "The 73383723 nails in boxes of 74044 take 992 boxes, leaving 67925 nails, and cost $7303054.40, or $803.24 a sheet over the 9092."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "70329559",
+    "43674",
+    "2065.65",
+    "57800"
+   ],
+   "expect": "The 70329559 nails in boxes of 43674 take 1611 boxes, leaving 29255 nails, and cost $3327762.15, or $57.57 a sheet over the 57800."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "21347316",
+    "35228",
+    "1801.07",
+    "53847"
+   ],
+   "expect": "The 21347316 nails in boxes of 35228 take 606 boxes, leaving 852 nails, and cost $1091448.42, or $20.27 a sheet over the 53847."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "52951309",
+    "90891",
+    "4902.31",
+    "68767"
+   ],
+   "expect": "The 52951309 nails in boxes of 90891 take 583 boxes, leaving 38144 nails, and cost $2858046.73, or $41.56 a sheet over the 68767."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "91443",
+    "8856.68"
+   ],
+   "expect": "The 91443 sheets at $8856.68 cost $809881389.24."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "96453",
+    "3291.26"
+   ],
+   "expect": "The 96453 sheets at $3291.26 cost $317451900.78."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "25658",
+    "244.18"
+   ],
+   "expect": "The 25658 sheets at $244.18 cost $6265170.44."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "94795",
+    "6388.46"
+   ],
+   "expect": "The 94795 sheets at $6388.46 cost $605594065.70."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "19088",
+    "3330.03"
+   ],
+   "expect": "The 19088 sheets at $3330.03 cost $63563612.64."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "24592",
+    "6590.55"
+   ],
+   "expect": "The 24592 sheets at $6590.55 cost $162074805.60."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "19912",
+    "8146.44"
+   ],
+   "expect": "The 19912 sheets at $8146.44 cost $162211913.28."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "32268",
+    "5403.06"
+   ],
+   "expect": "The 32268 sheets at $5403.06 cost $174345940.08."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "13356",
+    "1920.48"
+   ],
+   "expect": "The 13356 sheets at $1920.48 cost $25649930.88."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "13407",
+    "9008.43"
+   ],
+   "expect": "The 13407 sheets at $9008.43 cost $120776021.01."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "160",
+    "3320.4"
+   ],
+   "expect": "The 160 sheets at $3320.4 cost $531264.00."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "27915",
+    "2528.01"
+   ],
+   "expect": "The 27915 sheets at $2528.01 cost $70569399.15."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "89495",
+    "6328.74"
+   ],
+   "expect": "The 89495 sheets at $6328.74 cost $566390586.30."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "53978",
+    "7932.41"
+   ],
+   "expect": "The 53978 sheets at $7932.41 cost $428175626.98."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "99749",
+    "2378.16"
+   ],
+   "expect": "The 99749 sheets at $2378.16 cost $237219081.84."
+  }
+ ],
+ "errors": [
+  [
+   "sheets",
+   [
+    "0"
+   ]
+  ],
+  [
+   "sheets",
+   [
+    "1000001"
+   ]
+  ],
+  [
+   "nails",
+   [
+    "0",
+    "6",
+    "12"
+   ]
+  ],
+  [
+   "nails",
+   [
+    "13",
+    "0",
+    "12"
+   ]
+  ],
+  [
+   "nails",
+   [
+    "13",
+    "6",
+    "0"
+   ]
+  ],
+  [
+   "nails",
+   [
+    "13",
+    "49",
+    "12"
+   ]
+  ],
+  [
+   "boxes",
+   [
+    "0",
+    "500",
+    "12.50",
+    "13"
+   ]
+  ],
+  [
+   "boxes",
+   [
+    "832",
+    "0",
+    "12.50",
+    "13"
+   ]
+  ],
+  [
+   "boxes",
+   [
+    "832",
+    "500",
+    "0",
+    "13"
+   ]
+  ],
+  [
+   "boxes",
+   [
+    "832",
+    "500",
+    "12.50",
+    "0"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "28.50"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "13",
+    "0"
+   ]
+  ]
+ ]
+     }
