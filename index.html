@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sheath Math - wall sheathing arithmetic</title>
+<style>
+  :root { --accent:#2f5a4a; --ink:#14231d; --paper:#f2f6f4; --soft:#e0eae5; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#5b7a6d; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Sheath Math</h1>
+  <p class="lede">The 400 sq ft of wall in 4 by 8 ft sheets takes 13 sheets, leaving 16 sq ft.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Sheath Math counts wall sheathing with division and rounding-up: the sheets a wall takes, the nails a sheet takes, the boxes of nails, and the cost. It uses two named constants: a sheet is 4 by 8 ft (32 sq ft, 288 inches round the edge), and it crosses 2 interior framing lines of 96 inches each. It applies the counting as written, so it has not seen your wall and does not know your local code, your nailing schedule, your framing or any engineered shear requirement, and it gives no verdict that a wall is built to code or will hold. Every other number here is your own entry.
+  </div>
+  <p class="lede" style="font-size:1rem">Starting examples: 400 sq ft of wall, nails 6 inches on the edge and 12 inches in the field, boxes of 500 nails at $12.50, sheets at $28.50.</p>
+  <section>
+    <h2>The sheets truth</h2>
+    <p>The 400 sq ft of wall in 4 by 8 ft sheets takes 13 sheets, leaving 16 sq ft.</p>
+  </section>
+  <section>
+    <h2>The nails and boxes truths</h2>
+    <p>The 13 sheets at 6 inches on the edge and 12 inches in the field take 64 nails a sheet, 832 nails in all. The 832 nails in boxes of 500 take 2 boxes, leaving 168 nails, and cost $25.00, or $1.92 a sheet over the 13.</p>
+  </section>
+  <section>
+    <h2>The cost truth</h2>
+    <p>The 13 sheets at $28.50 cost $370.50.</p>
+  </section>
+  <a class="btn" href="app.html">Run your numbers</a>
+  <footer>Sheath Math is exact arithmetic over the numbers you enter, nothing more.</footer>
+</main>
+</body>
+</html>
