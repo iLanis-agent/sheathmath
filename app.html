@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sheath Math - app</title>
+<style>
+  :root { --accent:#2f5a4a; --ink:#14231d; --paper:#f2f6f4; --soft:#e0eae5; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2rem 1.2rem; }
+  h1 { font-size:1.8rem; color:var(--accent); }
+  .boundary { margin:1rem 0 1.4rem; }
+  .panel { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1rem 1.1rem; margin-bottom:1.1rem; }
+  h2 { font-size:1.1rem; margin-bottom:.6rem; }
+  p.note { font-size:.9rem; margin-bottom:.4rem; }
+  label { display:block; font-size:.9rem; margin:.45rem 0 .1rem; }
+  input { width:100%; padding:.45rem .55rem; font-size:1rem; border:1px solid #9ab8ac; border-radius:6px; background:#fff; color:var(--ink); }
+  .row2 { display:grid; grid-template-columns:1fr 1fr; gap:.6rem; }
+  .out { margin-top:.7rem; font-size:.98rem; background:#fff; border:1px dashed #9ab8ac; border-radius:6px; padding:.6rem .7rem; min-height:2.4rem; overflow-wrap:anywhere; }
+  .out.err { border-color:#b03030; color:#8a1f1f; }
+  footer { margin-top:1.8rem; font-size:.85rem; color:#5b7a6d; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Sheath Math</h1>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    This page counts wall sheathing with division and rounding-up: the sheets a wall takes, the nails a sheet takes, the boxes of nails, and the cost. It uses two named constants: a sheet is 4 by 8 ft (32 sq ft, 288 inches round the edge), and it crosses 2 interior framing lines of 96 inches each. The wall area, the nail spacings, the box size and the prices are yours to measure and read off your own plans and receipt. It applies the counting as written, so it has not seen your wall and does not know your local code, your nailing schedule, your framing or any engineered shear requirement, and it gives no verdict that a wall is built to code or will hold. Every other number here is your own entry.
+  </div>
+
+  <div class="panel">
+    <h2>The sheets truth</h2>
+    <p class="note">Sheets: the wall area divided by 32 sq ft a sheet, rounded up.</p>
+    <div class="row2"><div><label for="s-a">Wall area (sq ft)</label><input id="s-a" type="text" value="400"></div></div>
+    <div class="out" id="s-out"></div>
+  </div>
+  <div class="panel">
+    <h2>The nails truth</h2>
+    <p class="note">Nails: the edge inches over the edge spacing plus 2 framing lines over the field spacing, both rounded up, times the sheets.</p>
+    <div class="row2"><div><label for="n-n">Sheets</label><input id="n-n" type="text" value="13"></div><div><label for="n-e">Edge spacing (inches)</label><input id="n-e" type="text" value="6"></div></div>
+    <div class="row2"><div><label for="n-f">Field spacing (inches)</label><input id="n-f" type="text" value="12"></div></div>
+    <div class="out" id="n-out"></div>
+  </div>
+  <div class="panel">
+    <h2>The boxes truth</h2>
+    <p class="note">Boxes: the nails divided by the nails a box, rounded up, and the cost a sheet.</p>
+    <div class="row2"><div><label for="b-n">Nails</label><input id="b-n" type="text" value="832"></div><div><label for="b-b">Nails a box</label><input id="b-b" type="text" value="500"></div></div>
+    <div class="row2"><div><label for="b-p">Price a box (dollars)</label><input id="b-p" type="text" value="12.50"></div><div><label for="b-s">Sheets</label><input id="b-s" type="text" value="13"></div></div>
+    <div class="out" id="b-out"></div>
+  </div>
+  <div class="panel">
+    <h2>The cost truth</h2>
+    <p class="note">Cost: the sheets at their price.</p>
+    <div class="row2"><div><label for="c-n">Sheets</label><input id="c-n" type="text" value="13"></div><div><label for="c-p">Price a sheet (dollars)</label><input id="c-p" type="text" value="28.50"></div></div>
+    <div class="out" id="c-out"></div>
+  </div>
+
+  <footer>Sheath Math is exact arithmetic over the numbers you enter. <a href="index.html">Why it exists</a>.</footer>
+</main>
+<script src="engine.js"></script>
+<script>
+  function show(id, fn) {
+    const out = document.getElementById(id);
+    try { out.textContent = fn(); out.classList.remove("err"); }
+    catch (e) { out.textContent = e.message; out.classList.add("err"); }
+  }
+  function recalc() {
+    const v = (id) => document.getElementById(id).value;
+    show("s-out", () => sheetsTruth(v("s-a")));
+    show("n-out", () => nailsTruth(v("n-n"), v("n-e"), v("n-f")));
+    show("b-out", () => boxesTruth(v("b-n"), v("b-b"), v("b-p"), v("b-s")));
+    show("c-out", () => costTruth(v("c-n"), v("c-p")));
+  }
+  document.querySelectorAll("input").forEach((el) => {
+    el.addEventListener("input", recalc);
+    el.addEventListener("change", recalc);
+  });
+  recalc();
+</script>
+</body>
+</html>
